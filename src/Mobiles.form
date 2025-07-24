@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Mobiles">
+  <grid id="27dc6" binding="mainMobile" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="878" height="677"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="e3a0a" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="North"/>
+        <properties>
+          <background color="-1"/>
+          <enabled value="true"/>
+        </properties>
+        <border type="line">
+          <color color="-15728390"/>
+        </border>
+        <children>
+          <component id="ccbd7" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <font name="Lucida Handwriting" size="28" style="3"/>
+              <foreground color="-15728390"/>
+              <icon value="logo.png"/>
+              <text value="SSM Stores"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="34172" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="West"/>
+        <properties>
+          <background color="-1"/>
+        </properties>
+        <border type="line">
+          <title-color color="-15728390"/>
+          <color color="-15728390"/>
+        </border>
+        <children>
+          <grid id="6bcc0" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints/>
+            <properties>
+              <background color="-1"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="6d222" class="javax.swing.JButton" binding="PCsButton" default-binding="true">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13408513"/>
+                  <font name="Yu Gothic UI Semibold" size="14" style="1"/>
+                  <foreground color="-1"/>
+                  <text value="PCs"/>
+                </properties>
+              </component>
+              <component id="6476d" class="javax.swing.JButton" binding="laptopsbutton">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13408513"/>
+                  <font name="Yu Gothic UI Semibold" size="14" style="1"/>
+                  <foreground color="-1"/>
+                  <text value="Laptops"/>
+                </properties>
+              </component>
+              <component id="6bea1" class="javax.swing.JButton" binding="mobilesbutton">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <font name="Yu Gothic UI Semibold" size="14" style="1"/>
+                  <foreground color="-13408513"/>
+                  <text value="Mobile Phones"/>
+                </properties>
+              </component>
+              <component id="714b4" class="javax.swing.JButton" binding="headsetsbutton">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13408513"/>
+                  <font name="Yu Gothic UI Semibold" size="14" style="1"/>
+                  <foreground color="-1"/>
+                  <text value="Headsets"/>
+                </properties>
+              </component>
+              <component id="1e903" class="javax.swing.JButton" binding="camerasbutton">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13408513"/>
+                  <font name="Yu Gothic UI Semibold" size="14" style="1"/>
+                  <foreground color="-1"/>
+                  <text value="Cameras"/>
+                </properties>
+              </component>
+              <component id="53085" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="16" style="1"/>
+                  <foreground color="-15728390"/>
+                  <text value="Categories:"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="27a15" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="a8907" binding="TopMenu" layout-manager="GridBagLayout">
+            <constraints border-constraint="North"/>
+            <properties>
+              <background color="-1"/>
+            </properties>
+            <border type="line">
+              <font/>
+              <color color="-15728390"/>
+            </border>
+            <children>
+              <component id="86f77" class="javax.swing.JButton" binding="homeButton" default-binding="true">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="1.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <background color="-13408513"/>
+                  <foreground color="-1"/>
+                  <text value="Home"/>
+                </properties>
+              </component>
+              <component id="400d9" class="javax.swing.JButton" binding="cartButton" default-binding="true">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="1.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <background color="-13408513"/>
+                  <foreground color="-1"/>
+                  <text value="Cart"/>
+                </properties>
+              </component>
+              <component id="e6aa1" class="javax.swing.JButton" binding="logoutButton" default-binding="true">
+                <constraints>
+                  <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="1.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <background color="-13408513"/>
+                  <foreground color="-1"/>
+                  <text value="Logout"/>
+                </properties>
+              </component>
+              <component id="aac34" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Webdings" size="16" style="1"/>
+                  <foreground color="-13408513"/>
+                  <text value="Mobiles"/>
+                </properties>
+              </component>
+              <component id="390a8" class="javax.swing.JButton" binding="profileBTN">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="1.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <background color="-13408513"/>
+                  <foreground color="-1"/>
+                  <text value="Profile"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="110cd" layout-manager="GridLayoutManager" row-count="1" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints border-constraint="Center"/>
+            <properties>
+              <background color="-1"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="354b" binding="Hp1" layout-manager="GridBagLayout">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="cbab3" class="javax.swing.JLabel" binding="m1">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <text value="Realme GT"/>
+                    </properties>
+                  </component>
+                  <component id="a6597" class="javax.swing.JButton" binding="buyNowButton1">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13408513"/>
+                      <foreground color="-1"/>
+                      <text value="Buy Now"/>
+                    </properties>
+                  </component>
+                  <component id="5f299" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <icon value="Product Images/realmeGT.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="842a8" class="javax.swing.JButton" binding="addToCartButton1">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1"/>
+                      <foreground color="-13408513"/>
+                      <text value="Add to Cart"/>
+                    </properties>
+                  </component>
+                  <grid id="49a0" binding="Hp5" layout-manager="GridBagLayout">
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="e7768" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                          <gridbag weightx="0.0" weighty="0.0"/>
+                        </constraints>
+                        <properties>
+                          <icon value="Product Images/iPhone14.png"/>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                      <component id="d9786" class="javax.swing.JLabel" binding="m6">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                          <gridbag weightx="0.0" weighty="0.0"/>
+                        </constraints>
+                        <properties>
+                          <text value="iPhone 14"/>
+                        </properties>
+                      </component>
+                      <component id="97b7e" class="javax.swing.JButton" binding="buyNowButton6">
+                        <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                          <gridbag weightx="0.0" weighty="0.0"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13408513"/>
+                          <foreground color="-1"/>
+                          <text value="Buy Now"/>
+                        </properties>
+                      </component>
+                      <component id="1e865" class="javax.swing.JButton" binding="addToCartButton6">
+                        <constraints>
+                          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                          <gridbag weightx="0.0" weighty="0.0"/>
+                        </constraints>
+                        <properties>
+                          <background color="-1"/>
+                          <foreground color="-13408513"/>
+                          <text value="Add to Cart"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <grid id="29678" binding="Hp2" layout-manager="GridBagLayout">
+                <constraints>
+                  <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="d60b3" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <icon value="Product Images/Asus Rog 7.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="76ac7" class="javax.swing.JLabel" binding="m5">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <text value="Asus Rog"/>
+                    </properties>
+                  </component>
+                  <component id="19cb7" class="javax.swing.JButton" binding="buyNowButton5">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13408513"/>
+                      <foreground color="-1"/>
+                      <text value="Buy Now"/>
+                    </properties>
+                  </component>
+                  <component id="11fa7" class="javax.swing.JButton" binding="addToCartButton5">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1"/>
+                      <foreground color="-13408513"/>
+                      <text value="Add to Cart"/>
+                    </properties>
+                  </component>
+                  <grid id="d8a44" binding="Hp10" layout-manager="GridBagLayout">
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="c0463" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                          <gridbag weightx="0.0" weighty="0.0"/>
+                        </constraints>
+                        <properties>
+                          <icon value="Product Images/xiami13.png"/>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                      <component id="5dad4" class="javax.swing.JLabel" binding="m10">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                          <gridbag weightx="0.0" weighty="0.0"/>
+                        </constraints>
+                        <properties>
+                          <text value="Xiaomi 13"/>
+                        </properties>
+                      </component>
+                      <component id="f160" class="javax.swing.JButton" binding="buyNowButton10">
+                        <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                          <gridbag weightx="0.0" weighty="0.0"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13408513"/>
+                          <foreground color="-1"/>
+                          <text value="Buy Now"/>
+                        </properties>
+                      </component>
+                      <component id="50423" class="javax.swing.JButton" binding="addToCartButton10">
+                        <constraints>
+                          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                          <gridbag weightx="0.0" weighty="0.0"/>
+                        </constraints>
+                        <properties>
+                          <background color="-1"/>
+                          <foreground color="-13408513"/>
+                          <text value="Add to Cart"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <grid id="c14fa" binding="Hp3" layout-manager="GridBagLayout">
+                <constraints>
+                  <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="6fe0c" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <icon value="Product Images/Vivo v27.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="d7779" class="javax.swing.JLabel" binding="m4">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <text value="Vivo v27"/>
+                    </properties>
+                  </component>
+                  <component id="8c80e" class="javax.swing.JButton" binding="buyNowButton4">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13408513"/>
+                      <foreground color="-1"/>
+                      <text value="Buy Now"/>
+                    </properties>
+                  </component>
+                  <component id="2f901" class="javax.swing.JButton" binding="addToCartButton4">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1"/>
+                      <foreground color="-13408513"/>
+                      <text value="Add to Cart"/>
+                    </properties>
+                  </component>
+                  <grid id="ae185" binding="Hp9" layout-manager="GridBagLayout">
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="812e6" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                          <gridbag weightx="0.0" weighty="0.0"/>
+                        </constraints>
+                        <properties>
+                          <icon value="Product Images/pixel7.png"/>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                      <component id="f979f" class="javax.swing.JLabel" binding="m9">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                          <gridbag weightx="0.0" weighty="0.0"/>
+                        </constraints>
+                        <properties>
+                          <text value="Google Pixel 7"/>
+                        </properties>
+                      </component>
+                      <component id="414e0" class="javax.swing.JButton" binding="buyNowButton9">
+                        <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                          <gridbag weightx="0.0" weighty="0.0"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13408513"/>
+                          <foreground color="-1"/>
+                          <text value="Buy Now"/>
+                        </properties>
+                      </component>
+                      <component id="60f60" class="javax.swing.JButton" binding="addToCartButton9">
+                        <constraints>
+                          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                          <gridbag weightx="0.0" weighty="0.0"/>
+                        </constraints>
+                        <properties>
+                          <background color="-1"/>
+                          <foreground color="-13408513"/>
+                          <text value="Add to Cart"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <grid id="e012c" binding="Hp4" layout-manager="GridBagLayout">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="6911c" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <icon value="Product Images/Nokia x20.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="bd58a" class="javax.swing.JLabel" binding="m3">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <text value="Nokia x20"/>
+                    </properties>
+                  </component>
+                  <component id="d127a" class="javax.swing.JButton" binding="buyNowButton3">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13408513"/>
+                      <foreground color="-1"/>
+                      <text value="Buy Now"/>
+                    </properties>
+                  </component>
+                  <component id="5753f" class="javax.swing.JButton" binding="addToCartButton3">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1"/>
+                      <foreground color="-13408513"/>
+                      <text value="Add to Cart"/>
+                    </properties>
+                  </component>
+                  <grid id="dbf0c" binding="Hp8" layout-manager="GridBagLayout">
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="d94f9" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                          <gridbag weightx="0.0" weighty="0.0"/>
+                        </constraints>
+                        <properties>
+                          <icon value="Product Images/OnePlus11.png"/>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                      <component id="da88e" class="javax.swing.JLabel" binding="m8">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                          <gridbag weightx="0.0" weighty="0.0"/>
+                        </constraints>
+                        <properties>
+                          <text value="OnePlus 11"/>
+                        </properties>
+                      </component>
+                      <component id="48832" class="javax.swing.JButton" binding="buyNowButton8">
+                        <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                          <gridbag weightx="0.0" weighty="0.0"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13408513"/>
+                          <foreground color="-1"/>
+                          <text value="Buy Now"/>
+                        </properties>
+                      </component>
+                      <component id="2db5a" class="javax.swing.JButton" binding="addToCartButton8">
+                        <constraints>
+                          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                          <gridbag weightx="0.0" weighty="0.0"/>
+                        </constraints>
+                        <properties>
+                          <background color="-1"/>
+                          <foreground color="-13408513"/>
+                          <text value="Add to Cart"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <grid id="6a57e" binding="Hp7" layout-manager="GridBagLayout">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="c7c1d" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <icon value="Product Images/motorolaEdge.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="862af" class="javax.swing.JLabel" binding="m2">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <text value="Motorola Edge"/>
+                    </properties>
+                  </component>
+                  <component id="843c3" class="javax.swing.JButton" binding="buyNowButton2">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13408513"/>
+                      <foreground color="-1"/>
+                      <text value="Buy Now"/>
+                    </properties>
+                  </component>
+                  <component id="69237" class="javax.swing.JButton" binding="addToCartButton2">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1"/>
+                      <foreground color="-13408513"/>
+                      <text value="Add to Cart"/>
+                    </properties>
+                  </component>
+                  <grid id="ca58" binding="Hp6" layout-manager="GridBagLayout">
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="e1386" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                          <gridbag weightx="0.0" weighty="0.0"/>
+                        </constraints>
+                        <properties>
+                          <icon value="Product Images/s23.png"/>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                      <component id="96fa4" class="javax.swing.JLabel" binding="m7">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                          <gridbag weightx="0.0" weighty="0.0"/>
+                        </constraints>
+                        <properties>
+                          <text value="Samsung Galaxy S23"/>
+                        </properties>
+                      </component>
+                      <component id="483bd" class="javax.swing.JButton" binding="buyNowButton7">
+                        <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                          <gridbag weightx="0.0" weighty="0.0"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13408513"/>
+                          <foreground color="-1"/>
+                          <text value="Buy Now"/>
+                        </properties>
+                      </component>
+                      <component id="1ac0f" class="javax.swing.JButton" binding="addToCartButton7">
+                        <constraints>
+                          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                          <gridbag weightx="0.0" weighty="0.0"/>
+                        </constraints>
+                        <properties>
+                          <background color="-1"/>
+                          <foreground color="-13408513"/>
+                          <text value="Add to Cart"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
